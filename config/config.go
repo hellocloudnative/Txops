@@ -7,8 +7,8 @@ import (
 
 var(
 	Credential = common.NewCredential(
-		"AKIDJwfSYXZRE3vuyvua7e5OemleYWXRqpKe",
-		"ckpkYVPAk9PVtBJG2gWNF2gJsHX7cl4H",
+		"*",
+		"*",
 	)
 )
 type CvmList struct {
