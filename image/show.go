@@ -42,12 +42,12 @@ func ShowImage()  {
 		imageInfos := images.Response.ImageSet
 		for _, i := range (imageInfos) {
 			if ImageName == i.ImageName {
-				fmt.Println(i.ImageID)
-				fmt.Println(i.ImageName)
+				fmt.Printf("镜像ID:[%s]\n",i.ImageID)
+				fmt.Printf("镜像名称:[%s]\n",i.ImageName)
 			}
 			if ImageId == i.ImageID {
-				fmt.Println(i.ImageID)
-				fmt.Println(i.ImageName)
+				fmt.Printf("镜像ID:[%s]\n",i.ImageID)
+				fmt.Printf("镜像名称:[%s]\n",i.ImageName)
 			}
 		}
 	}
