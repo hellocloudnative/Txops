@@ -21,8 +21,8 @@ func Createcvm()  {
 			"\"ImageId\":\"%s\",\"SystemDisk\":{\"DiskType\":\"CLOUD_PREMIUM\"," +
 			"\"DiskSize\":500},\"VirtualPrivateCloud\":{\"VpcId\":\"vpc-nn4i3pj9\"," +
 			"\"SubnetId\":\"subnet-7yuw15ss\",\"PrivateIpAddresses\":[\"%s\"]}," +
-			"\"InstanceName\":\"10-128-5-252-v350\",\"LoginSettings\":{\"Password\":\"nEtbenTY2o20\"}," +
-			"\"SecurityGroupIds\":[\"sg-p0nv061x\"],\"HostName\":\"%s\",\"DryRun\":%s}", ImageId, Ipaddress, HostName, DryRun)
+			"\"InstanceName\":\"%s\",\"LoginSettings\":{\"Password\":\"nEtbenTY2o20\"}," +
+			"\"SecurityGroupIds\":[\"sg-p0nv061x\"],\"HostName\":\"%s\",\"DryRun\":%s}", ImageId, Ipaddress,HostName, HostName, DryRun)
 		err := request.FromJsonString(params)
 		if err != nil {
 			panic(err)
